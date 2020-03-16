@@ -5,7 +5,7 @@ class Author
   end
   
   def add_title(title)
-    @title << title
+    @titles << title
     title.author = self if title.author != self 
   end 
 end
