@@ -1,7 +1,7 @@
 class Author 
   def initialize(name)
     @name = name
-    @title = []
+    @titles = []
   end
   
   def add_title(title)
