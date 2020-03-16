@@ -1,7 +1,7 @@
 class Post 
     attr_accessor :title
     attr_reader :author
-    belongs_to :author
+    
   def initialize
     @title = title
   end
