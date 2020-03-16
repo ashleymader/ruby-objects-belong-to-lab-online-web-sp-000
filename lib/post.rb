@@ -9,5 +9,6 @@ class Post
   def author
     @author = author 
     author.add_title(self) unless author.title.include?(self)
+     belongs_to :author
   end
 end
