@@ -6,7 +6,7 @@ class Post
     @title = title
   end
   
-  def author=(author)
+  def author
     @author = author 
     author.add_title(self) unless author.title.include?(self)
   end
