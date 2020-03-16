@@ -7,9 +7,7 @@ class Artist
     @songs = []
   end
   
-  def name(name)
-    @name = name 
-  end
+  
   def add_song(song)
     @songs << song
     song.artist = self if song.artist != self 
